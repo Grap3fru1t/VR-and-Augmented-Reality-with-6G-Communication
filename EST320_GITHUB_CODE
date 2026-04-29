@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VR & AR with 6G Communication Research</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#f4f6f9;
+      color:#1f2937;
+      line-height:1.7;
+    }
+
+    header{
+      background:linear-gradient(135deg,#0f172a,#2563eb);
+      color:white;
+      padding:60px 10%;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:3rem;
+      margin-bottom:15px;
+    }
+
+    header p{
+      font-size:1.2rem;
+      max-width:900px;
+      margin:auto;
+    }
+
+    nav{
+      background:#111827;
+      padding:15px;
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+
+    nav ul{
+      display:flex;
+      justify-content:center;
+      gap:25px;
+      list-style:none;
+      flex-wrap:wrap;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#60a5fa;
+    }
+
+    section{
+      padding:60px 10%;
+    }
+
+    .section-title{
+      font-size:2rem;
+      margin-bottom:20px;
+      color:#1d4ed8;
+      border-bottom:3px solid #2563eb;
+      display:inline-block;
+      padding-bottom:5px;
+    }
+
+    .card{
+      background:white;
+      padding:30px;
+      border-radius:12px;
+      margin-top:20px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:25px;
+      margin-top:25px;
+    }
+
+    .quote{
+      background:#e0f2fe;
+      border-left:6px solid #0284c7;
+      padding:20px;
+      margin-top:20px;
+      font-style:italic;
+    }
+
+    footer{
+      background:#0f172a;
+      color:white;
+      padding:40px 10%;
+    }
+
+    footer h2{
+      margin-bottom:15px;
+    }
+
+    footer ul{
+      margin-left:20px;
+    }
+
+    .highlight{
+      color:#2563eb;
+      font-weight:bold;
+    }
+
+    @media(max-width:768px){
+      header h1{
+        font-size:2.2rem;
+      }
+
+      nav ul{
+        gap:12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Virtual Reality & Augmented Reality with 6G Communication</h1>
+
+    <p>
+      Exploring how Artificial Intelligence, Virtual Reality (VR), 
+      Augmented Reality (AR), and future 6G communication networks 
+      will reshape education, healthcare, entertainment, remote work, 
+      and global collaboration by 2040.
+    </p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#6g">6G Technology</a></li>
+      <li><a href="#applications">Applications</a></li>
+      <li><a href="#ai">AI Integration</a></li>
+      <li><a href="#challenges">Challenges</a></li>
+      <li><a href="#future">Future Impact</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ul>
+  </nav>
+
+  <section id="overview">
+    <h2 class="section-title">Research Overview</h2>
+
+    <div class="card">
+      <p>
+        Virtual Reality (VR) creates fully immersive digital environments, 
+        while Augmented Reality (AR) overlays digital information onto the real world. 
+        The development of <span class="highlight">6G communication networks</span> is expected 
+        to dramatically improve these technologies through ultra-fast data transfer, 
+        extremely low latency, artificial intelligence integration, and real-time processing.
+      </p>
+
+      <br>
+
+      <p>
+        Our research focuses on how AI-driven communication infrastructure and 
+        6G wireless networks can enable immersive AR/VR collaboration platforms 
+        and reshape global work structures by 2040.
+      </p>
+
+      <div class="quote">
+        “6G is presented as a next generation network capable of delivering high data speeds, 
+        ultra-low latency, and more reliable connectivity than current networks.”
+        <br><br>
+        — EST 320 Group 7 Book Review Assignment
+      </div>
+    </div>
+  </section>
+
+  <section id="6g">
+    <h2 class="section-title">The Role of 6G Communication</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Ultra-Low Latency</h3>
+        <p>
+          Immersive VR and AR systems require near-instant responses to maintain realism.
+          6G networks aim to reduce latency significantly beyond 5G capabilities,
+          allowing smoother interaction in virtual environments.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>High Data Speeds</h3>
+        <p>
+          6G communication may support terabyte-level data transfer rates,
+          enabling high-quality graphics, real-time simulations,
+          and large-scale virtual collaboration.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Edge Computing</h3>
+        <p>
+          Edge computing allows data processing closer to users,
+          reducing delays and improving real-time performance
+          for immersive applications and AI systems.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="applications">
+    <h2 class="section-title">Applications of VR & AR</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Education</h3>
+        <p>
+          VR and AR can create interactive classrooms, virtual laboratories,
+          and immersive learning environments that increase engagement and accessibility.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Healthcare</h3>
+        <p>
+          Medical students may use VR simulations for surgical training,
+          while AR can provide doctors with real-time patient information
+          during medical procedures.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Remote Work</h3>
+        <p>
+          Future collaboration systems could allow employees to interact in shared
+          virtual offices rather than traditional video conferencing platforms.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Entertainment & Gaming</h3>
+        <p>
+          VR gaming and immersive entertainment experiences continue to expand,
+          supported by faster networking and improved graphics rendering.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="quote">
+      “VR provides an immersive gaming experience, transporting users to virtual worlds 
+      where they can explore, interact, and compete.”
+      <br><br>
+      — Sundaravadivazhagan, Chapter 11
+    </div>
+
+  </section>
+
+  <section id="ai">
+    <h2 class="section-title">Artificial Intelligence Integration</h2>
+
+    <div class="card">
+      <p>
+        Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL)
+        are critical for future immersive systems. AI allows VR and AR platforms
+        to process visual and spatial information, interpret user behavior,
+        and generate adaptive virtual environments in real time.
+      </p>
+
+      <br>
+
+      <p>
+        AI-powered avatars, virtual assistants, and smart environments
+        may improve communication, education, customer support,
+        and workplace collaboration.
+      </p>
+
+      <div class="quote">
+        “AI models allow virtual environments to respond more naturally 
+        to user behavior and their surroundings.”
+        <br><br>
+        — EST 320 Book Review
+      </div>
+    </div>
+  </section>
+
+  <section id="challenges">
+    <h2 class="section-title">Challenges & Ethical Concerns</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Privacy & Security</h3>
+        <p>
+          Immersive systems collect significant amounts of personal data,
+          including facial expressions, body movement, and voice information.
+          Protecting this data remains a major challenge.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Accessibility</h3>
+        <p>
+          High equipment costs and infrastructure limitations may prevent
+          equal access to immersive technologies worldwide.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Mental Health</h3>
+        <p>
+          Researchers continue to examine how long-term use of immersive environments
+          may affect social behavior, attention, and psychological well-being.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Technical Limitations</h3>
+        <p>
+          Current issues include bulky hardware, motion sickness,
+          tracking inaccuracies, energy consumption,
+          and the need for large-scale infrastructure development.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="future">
+    <h2 class="section-title">Future Impact by 2040</h2>
+
+    <div class="card">
+      <p>
+        By 2040, immersive AR and VR systems supported by 6G communication
+        may significantly change how people work, learn, and interact globally.
+        Virtual collaboration platforms could replace many traditional online meetings,
+        while AI-powered environments may allow realistic simulations
+        for healthcare, manufacturing, engineering, and education.
+      </p>
+
+      <br>
+
+      <p>
+        Researchers also believe these technologies may contribute to
+        decentralized global work structures, allowing professionals
+        from different countries to collaborate in immersive digital spaces
+        with minimal communication barriers.
+      </p>
+
+      <div class="quote">
+        “The combination of immersive technologies and advanced communication networks
+        will likely play an important role in shaping the future of learning,
+        entertainment, and human interaction.”
+      </div>
+    </div>
+  </section>
+
+  <footer id="sources">
+
+    <h2>Cited Sources</h2>
+
+    <ul>
+      <li>
+        EST 320 Expert Interview – Night Owls Group Interview with Dr. Mueller (2026)
+      </li>
+
+      <li>
+        EST 320 Group 7 Book Review Assignment (2026)
+      </li>
+
+      <li>
+        EST 320 Group 7 Book Review Discussion Team Sheet (2026)
+      </li>
+
+      <li>
+        EST 320 Night Owls Interview Questions (2026)
+      </li>
+
+      <li>
+        Sundaravadivazhagan, B., Gnanasankaran, N., Raj, P., & Raja, A.
+        <i>Virtual Reality and Augmented Reality with 6G Communication</i>.
+        2025.
+      </li>
+
+      <li>
+        Qualcomm. “What is 6G?” Qualcomm Technologies.
+        https://www.qualcomm.com/research/6g
+      </li>
+
+      <li>
+        IBM Research. “The Future of Extended Reality and AI.”
+        https://research.ibm.com
+      </li>
+
+      <li>
+        Microsoft Mesh Documentation.
+        https://www.microsoft.com/en-us/mesh
+      </li>
+
+      <li>
+        IEEE Future Networks Initiative.
+        https://futurenetworks.ieee.org
+      </li>
+
+    </ul>
+
+    <br>
+
+    <p>
+      Website created for EST 320 Research Project — Night Owls Team
+    </p>
+
+  </footer>
+
+</body>
+</html>
